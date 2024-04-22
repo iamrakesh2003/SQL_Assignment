@@ -1,0 +1,333 @@
+
+
+#include <stdio.h>
+
+int main ()
+{
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+   int b;
+  printf ("enter the value of b:-");
+  scanf ("%d", &b);
+  int c;
+  c=a+b;
+  printf ("the addition of a and b is :-" "%d",c);
+  
+  
+  return 0;
+    
+}
+
+
+-------------------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //12+56+18+78
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+  
+   int b;
+  printf ("enter the value of b:-");
+  scanf ("%d", &b);
+  
+  int c;
+   printf ("enter the value of c:-");
+  scanf ("%d", &c);
+  
+  int d;
+   printf ("enter the value of d:-");
+  scanf ("%d", &d);
+  
+  int e;
+  e=a+b+c+d;
+  printf ("the addition of a and b is :-" "%d",e);
+  
+  
+  return 0;
+    
+}
+
+
+-----------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //34-9
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+  
+   int b;
+  printf ("enter the value of b:-");
+  scanf ("%d", &b);
+  
+
+  int c;
+  c= a-b;
+  
+  printf ("the substraction of a and b is :-" "%d",c);
+  
+  
+  return 0;
+    
+}
+
+
+---------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //78/3
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+  
+   int b;
+  printf ("enter the value of b:-");
+  scanf ("%d", &b);
+  
+
+  int c;
+  c= a/b;
+  
+  printf ("the division of a and b is :-" "%d",c);
+  
+  
+  return 0;
+    
+}
+
+
+--------------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //7.8-34*2+(89-2)
+  float a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%f", &a); 
+  
+   float b;
+  printf ("enter the value of b:-");
+  scanf ("%f", &b);
+  
+   float c;
+  printf ("enter the value of c:-");
+  scanf ("%f", &c);
+  
+   float d;
+  printf ("enter the value of d:-");
+  scanf ("%f", &d);
+  
+   float e;
+  printf ("enter the value of e:-");
+  scanf ("%f", &e);
+  
+
+  float f;
+  f= a-b*c+(d-e);
+  
+  printf ("the result of a,b,c,d and e is :-" "%f",f);
+  
+  
+  return 0;
+    
+}
+
+
+---------------------------------------------------------
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //34+(9*2)/2
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+  
+   int b;
+  printf ("enter the value of b :-");
+  scanf ("%d", &b);
+  
+   int c;
+  printf ("enter the value of c :-");
+  scanf ("%d", &c);
+  
+   int d;
+  printf ("enter the value of d :-");
+  scanf ("%d", &d);
+  
+   
+  
+
+  int e;
+  e= a+(b*c)/d;
+  
+  printf ("the result of a,b,c and d is :-" "%d",e);
+  
+  
+  return 0;
+    
+}
+
+
+---------------------------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //2.3*4.5/5
+  float a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%f", &a); 
+  
+   float b;
+  printf ("enter the value of b:-");
+  scanf ("%f", &b);
+  
+   float c;
+  printf ("enter the value of c:-");
+  scanf ("%f", &c);
+  
+  
+  
+
+  float d;
+  d= a*b/c;
+  
+  printf ("the result of a,b,c,d and e is :-" "%f",d);
+  
+  
+  return 0;
+    
+}
+
+
+
+------------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+int main ()
+{
+    //1.1*2+6.7/1.2*6+(7.8-2)
+  float a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%f", &a); 
+  
+   float b;
+  printf ("enter the value of b:-");
+  scanf ("%f", &b);
+  
+   float c;
+  printf ("enter the value of c:-");
+  scanf ("%f", &c);
+  
+   float d;
+  printf ("enter the value of d:-");
+  scanf ("%f", &d);
+  
+   float e;
+  printf ("enter the value of e:-");
+  scanf ("%f", &e);
+  
+  float f;
+  printf ("enter the value of f:-");
+  scanf ("%f", &f);
+  
+  float g;
+  printf ("enter the value of g:-");
+  scanf ("%f", &g);
+  
+
+  float h;
+  h= a*b+c/d*e+(f-g);
+  
+  printf ("the result of a,b,c,d,e,f,and g is :-" "%f",h);
+  
+  
+  return 0;
+    
+}
+
+
+
+-------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main ()
+{
+    //34*23+(12-98)
+  int a;
+ 
+  
+  printf ("enter the value of a :-");
+  scanf ("%d", &a); 
+  
+   int b;
+  printf ("enter the value of b :-");
+  scanf ("%d", &b);
+  
+   int c;
+  printf ("enter the value of c :-");
+  scanf ("%d", &c);
+  
+   int d;
+  printf ("enter the value of d :-");
+  scanf ("%d", &d);
+  
+   
+  
+
+  int e;
+  e= a*b+(c-d);
+  
+  printf ("the result of a,b,c and d is :-" "%d",e);
+  
+  
+  return 0;
+    
+}
+
+
